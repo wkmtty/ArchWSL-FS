@@ -10,7 +10,7 @@ FRTCP_VER="1.24-2"
 FRTCP_FN="fakeroot-tcp-${FRTCP_VER}-${ARCH}.pkg.tar.xz"
 FRTCP_URL="https://github.com/wkmtty/ArchWSL-FS/releases/download/${FRTCP_BLD}/${FRTCP_FN}"
 
-PAC_PKGS="base less nano sudo vim curl"
+PAC_PKGS="base less nano sudo vim curl git"
 
 if type curl >/dev/null 2>&1 ;then
     DLR="curl"
